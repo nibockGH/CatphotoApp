@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Free Cat Photo App</title>
+    <link rel="icon" href="https://www.githubusercontent.com/freeCodeCamp/freeCodeCamp/master/docs/images/branding/favicong.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+        body {
+            font-family: "Roboto Mono", monospace;
+            color: #0a0a23;
+            font-size: 18px;
+            padding: 1em;
+            line-height: 1.4;
+            text-align: center;
+            margin-top: 5vw;
+        }
+        a {
+            color: #0a0a23;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #ff6767;
+            background-color: #1b1b32;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        a:active {
+            box-shadow: none;
+            top: 5px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .photos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        figure {
+            margin: 1em;
+        }
+        figcaption {
+            text-align: center;
+        }
+        img {
+            max-width: 280px;
+            height: auto;
+        }
+        footer {
+            font-size: 0.75em;
+            margin-top: 20px;
+        }
+        @media (max-width: 650px) {
+            .photos {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Fotos de gatos</h1>
+    <div class="photos">
+        <figure>
+            <img src="https://bit.ly/fcc-running-cats" alt="Tres gatos corriendo hacia la camara.">
+            <figcaption>Tres gatos corriendo hacia la camara</figcaption>
+        </figure>
+        <figure>
+            <img src="https://bit.ly/fcc-relaxing-cat" alt="Un gato naranja apoyandose en su espalda.">
+            <figcaption>Un gato naranja apoyandose en su espalda.</figcaption>
+        </figure>
+    </div>
+   
+</body>
+</html>
